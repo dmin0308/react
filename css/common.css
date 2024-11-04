@@ -1,0 +1,18 @@
+body{
+  font-family: 'Roboto', 'Pretendard', sans-serif;
+}
+
+h1,h2,h3,h4,p,ul,li,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.en{
+  font-family: 'Roboto', sans-serif !important;
+}
+.kr{
+  font-family: 'Pretendard', sans-serif !important;
+}

@@ -1,0 +1,30 @@
+/* 초기 배경색 설정과 애니메이션 적용 */
+.app {
+  background-color: white;
+  color: white;
+  transition: background-color 1s ease;
+  animation: backgroundFade 1s ease forwards 1s;
+}
+
+/* 배경색 전환 애니메이션 */
+@keyframes backgroundFade {
+  to {
+    background-color: black;
+  }
+}
+
+/* 텍스트 초기 상태와 애니메이션 */
+.impact-text {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease forwards 2s;
+}
+
+/* 텍스트 페이드 인 애니메이션 */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    color: white;
+  }
+}
